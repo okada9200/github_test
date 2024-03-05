@@ -7,4 +7,4 @@
     echo "パスワードを入力して下さい："
     read password
     echo Thank you!
-
+    echo "$service_name:$user_name:$password" >> passfile
